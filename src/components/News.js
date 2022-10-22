@@ -43,7 +43,7 @@ const News =(props) =>{
 
 
   
-  const handlePrevClick = async ()=>{
+  //const handlePrevClick = async ()=>{
     // let url =` https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=e95e7ce825464f809fdc59681a106ea6&page=${this.state.page-1}&pageSize=${props.pageSize}`;
     // this.setState({loading:true});
     // let data= await fetch(url);
@@ -61,7 +61,7 @@ const News =(props) =>{
 
   }
 
- const handleNextClick = async ()=>{
+// const handleNextClick = async ()=>{
 //     if(this.state.page+1 > Math.ceil(this.state.totalResults/props.pageSize)){
 
 //     }
