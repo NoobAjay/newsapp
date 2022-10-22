@@ -56,10 +56,10 @@ const News =(props) =>{
     //   articles : parsedData.articles,
     //   loading:false
     //      })
-    setPage(page-1)
-    updateNews();
+  //  setPage(page-1)
+//    updateNews();
 
-  }
+//  }
 
 // const handleNextClick = async ()=>{
 //     if(this.state.page+1 > Math.ceil(this.state.totalResults/props.pageSize)){
@@ -82,10 +82,10 @@ const News =(props) =>{
 // loading:false
 //     })
 //   }
-setPage(page+1)
-updateNews();
+//setPage(page+1)
+//updateNews();
 
-  }
+ // }
 
   const fetchMoreData = async() => {
     // a fake async api call like which sends
